@@ -4,14 +4,13 @@
 
 ![](/project.svg)
 
-
-
- text
-
-
-
 ## Inputs
 
 - **Dowel_diam** (number)
+- **section_width** (number)
 
+
+
+
+ 
 
