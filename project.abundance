@@ -30,6 +30,18 @@
       "y": 0.3475609756097561,
       "uniqueID": "id-566",
       "name": "Dowel_diam"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2814614343707713,
+      "y": 0.4908536585365854,
+      "uniqueID": "id-574",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [],
