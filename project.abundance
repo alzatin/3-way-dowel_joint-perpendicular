@@ -13,6 +13,11 @@
     {
       "name": "section_width",
       "ioValue": 2
+    },
+    {
+      "name": "Dowel_depth",
+      "ioValue": 0.75,
+      "currentEquation": ".75"
     }
   ],
   "topLevel": true,
@@ -182,8 +187,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.30073349633251834,
-      "y": 0.5060975609756098,
+      "x": 0.30317848410757947,
+      "y": 0.5152439024390244,
       "uniqueID": "id-661",
       "ioValues": [
         {
@@ -471,15 +476,15 @@
         },
         {
           "name": "height",
-          "ioValue": -0.5,
-          "currentEquation": "-.5"
+          "ioValue": -0.75,
+          "currentEquation": "-Dowel_depth"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.24857375713121435,
-      "y": 0.649390243902439,
+      "x": 0.24938875305623473,
+      "y": 0.6402439024390244,
       "uniqueID": "id-882",
       "ioValues": [
         {
@@ -503,8 +508,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.25183374083129584,
-      "y": 0.7652439024390244,
+      "x": 0.254278728606357,
+      "y": 0.7408536585365854,
       "uniqueID": "id-888",
       "ioValues": [
         {
@@ -528,8 +533,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4295028524857376,
-      "y": 0.6676829268292683,
+      "x": 0.4270578647106764,
+      "y": 0.7042682926829268,
       "uniqueID": "id-894",
       "ioValues": [
         {
@@ -538,8 +543,8 @@
         },
         {
           "name": "height",
-          "ioValue": 0.5,
-          "currentEquation": "0.5"
+          "ioValue": 0.75,
+          "currentEquation": "Dowel_depth"
         }
       ]
     },
@@ -552,7 +557,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-move-circle-0.6875-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--0.5",
+            "geometry": "extrude-move-circle-0.6875-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--0.75",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -579,7 +584,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-move-circle-0.6875-0-0-0-{\"origin\":[0,0,-2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5",
+            "geometry": "extrude-move-circle-0.6875-0-0-0-{\"origin\":[0,0,-2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -606,7 +611,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "extrude-move-rotate-circle-0.6875-0-0-0-0-0-0-{\"origin\":[-2,0,-2.220446049250313e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.5",
+            "geometry": "extrude-move-rotate-circle-0.6875-0-0-0-0-0-0-{\"origin\":[-2,0,-2.220446049250313e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.75",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -676,8 +681,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4775876120619397,
-      "y": 0.8292682926829269,
+      "x": 0.48492257538712313,
+      "y": 0.8475609756097561,
       "uniqueID": "id-913",
       "ioValues": [
         {
@@ -686,8 +691,8 @@
         },
         {
           "name": "height",
-          "ioValue": 0.5,
-          "currentEquation": "0.5"
+          "ioValue": 0.75,
+          "currentEquation": "Dowel_depth"
         }
       ]
     },
@@ -715,6 +720,13 @@
           "currentEquation": "-section_width"
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.39329268292682923,
+      "uniqueID": "id-924",
+      "name": "Dowel_depth"
     }
   ],
   "allConnectors": [
@@ -807,6 +819,11 @@
       "ap2Name": "geometry2",
       "ap1ID": "id-898",
       "ap2ID": "id-903"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-903",
+      "ap2ID": "id-564"
     },
     {
       "ap2Name": "geometry",

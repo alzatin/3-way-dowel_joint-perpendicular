@@ -8,6 +8,7 @@
 
 - **Dowel_diam** (number)
 - **section_width** (number)
+- **Dowel_depth** (number)
 
 
 
