@@ -8,3 +8,8 @@
 
  
 
+## Inputs
+
+- **Dowel_diam** (number)
+
+
