@@ -42,9 +42,35 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.4629176854115729,
+      "y": 0.7042682926829268,
+      "uniqueID": "id-593",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "text",
+      "global": true
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-566",
+      "ap2ID": "id-574"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-574",
+      "ap2ID": "id-564"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
