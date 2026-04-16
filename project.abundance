@@ -8,6 +8,10 @@
     {
       "name": "Dowel_diam",
       "ioValue": 10
+    },
+    {
+      "name": "Angle",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -27,14 +31,14 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.3475609756097561,
+      "y": 0.15384615384615385,
       "uniqueID": "id-566",
       "name": "Dowel_diam"
     },
     {
       "atomType": "Circle",
-      "x": 0.2814614343707713,
-      "y": 0.4908536585365854,
+      "x": 0.2787286063569682,
+      "y": 0.4969512195121951,
       "uniqueID": "id-574",
       "ioValues": [
         {
@@ -42,6 +46,13 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-582",
+      "name": "Angle"
     }
   ],
   "allConnectors": [],
