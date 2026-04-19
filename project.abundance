@@ -16,7 +16,8 @@
     },
     {
       "name": "Dowel_depth",
-      "ioValue": 0.75
+      "ioValue": 0.75,
+      "currentEquation": ".75"
     }
   ],
   "topLevel": true,
@@ -42,14 +43,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.19885900570497148,
-      "y": 0.2682926829268293,
+      "x": 0.17929910350448247,
+      "y": 0.3597560975609756,
       "uniqueID": "id-574",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 1.375,
-          "currentEquation": "Dowel_diam + 1/8"
+          "ioValue": 1.5,
+          "currentEquation": "Dowel_diam + 1/4"
         }
       ]
     },
@@ -103,7 +104,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
+            "geometry": "extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -130,7 +131,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
+            "geometry": "extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -157,7 +158,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-0-90-0",
+            "geometry": "rotate-extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-0-90-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
